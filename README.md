@@ -1,4 +1,4 @@
-# Deep Learning: Compositional Function Approximation & Transfer Learning
+# Deep Learning: Network Depth Theory & Transfer Learning
 
 **Python, PyTorch, TensorFlow/Keras, EfficientNetB4**
 
@@ -132,11 +132,3 @@ API token on first run).
   fine-tuning depth) rather than a full controlled ablation.
 - Part 2 depends on Kaggle's dataset and account access; it isn't
   runnable end-to-end from this repo without that external dependency.
-
-## Résumé bullet
-
-> Deep Learning: Compositional Function Approximation & Transfer Learning | PyTorch, TensorFlow/Keras
-> Independently replicated a theoretical deep-vs-shallow-network result
-> (PyTorch) and built an EfficientNetB4 transfer-learning image classifier
-> (99.34% validation accuracy, Kaggle log loss 0.079) with a VGG16 baseline
-> comparison and systematic fine-tuning ablation.
