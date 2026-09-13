@@ -1,0 +1,14 @@
+numpy>=2.0
+torch>=2.2
+matplotlib>=3.9
+
+# only needed to run/re-execute notebooks/01_shallow_vs_deep.ipynb
+jupyter>=1.0
+nbformat>=5.10
+
+# only needed for notebooks/02 and notebooks/03 (run on Google Colab with GPU)
+tensorflow>=2.15
+kaggle>=1.6
+Pillow>=10.0
+scikit-learn>=1.4
+pandas>=2.2
