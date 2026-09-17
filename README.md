@@ -63,6 +63,15 @@ contrast, is fully self-contained and re-executable with no external data.
 
 ### Methodology
 
+```mermaid
+flowchart LR
+    A[25K labeled images] --> B[Resize + preprocess_input normalization]
+    B --> C[EfficientNetB4 pretrained on ImageNet]
+    C --> D[Phase 1: train classification head]
+    D --> E[Phase 2: fine-tune]
+    E --> F[Benchmark vs. VGG16 baseline]
+```
+
 - **Preprocessing:** images resized (224px / 260px), organized into class
   subfolders for `flow_from_directory`, normalized with EfficientNetB4's
   `preprocess_input` (channel-wise mean subtraction, not simple rescaling).
